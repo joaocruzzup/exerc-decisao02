@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f473e466-fcde-452f-8c28-4104b2090769" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex03/Exercicio03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex04/Exercicio04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
       <recent name="C:\Users\joao.cruz\Documents\ws-intellij\exerc-decisao02\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercicio03">
+  <component name="RunManager" selected="Application.Exercicio04">
     <configuration name="Exercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex01.Exercicio01" />
       <module name="exerc-decisao02" />
@@ -82,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercicio04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex04.Exercicio04" />
+      <module name="exerc-decisao02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio04" />
         <item itemvalue="Application.Exercicio03" />
         <item itemvalue="Application.Exercicio02" />
         <item itemvalue="Application.Exercicio01" />
