@@ -42,7 +42,7 @@
       <recent name="C:\Users\joao.cruz\Documents\ws-intellij\exerc-decisao02\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercicio04">
+  <component name="RunManager" selected="Application.Exercicio05">
     <configuration name="Exercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex01.Exercicio01" />
       <module name="exerc-decisao02" />
@@ -95,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Exercicio05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex05.Exercicio05" />
+      <module name="exerc-decisao02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio05" />
         <item itemvalue="Application.Exercicio04" />
         <item itemvalue="Application.Exercicio03" />
         <item itemvalue="Application.Exercicio02" />
