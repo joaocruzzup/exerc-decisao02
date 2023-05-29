@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Exercicio04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("---------------------------------------------");
+        System.out.println("Boas-vindas ao sistema de aumento de salário!");
+        System.out.println("---------------------------------------------");
 
-        System.out.println("Digite o seu salário");
+        System.out.println("Digite o seu salário: ");
         double salario = sc.nextDouble();
         double taxa;
         double aumento;
@@ -24,9 +27,11 @@ public class Exercicio04 {
         aumento = salario * taxa;
         salarioAjustado = salario + aumento;
 
-        System.out.println("O seu salário antes era de: " + salario);
+        System.out.println("---------------------------------------");
+        System.out.printf("O seu salário antes era de: R$ %,.2f %n",  salario);
         System.out.printf("O percentual do seu aumento foi de: %.0f%% %n", taxa * 100);
-        System.out.println("O valor do seu aumento foi de: " + aumento);
-        System.out.println("O seu novo salário será de: " + salarioAjustado);
+        System.out.printf("O valor do seu aumento foi de: R$ %,.2f %n", aumento);
+        System.out.printf("O seu novo salário será de: R$ %,.2f %n", salarioAjustado);
+        System.out.println("---------------------------------------");
     }
 }

@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Exercicio05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("--------------------------------");
+        System.out.println("Boas-vindas ao seu Dia da Semana");
+        System.out.println("--------------------------------");
+
         System.out.println("Digite um número de 1 a 7: ");
         int num = sc.nextInt();
 
@@ -14,29 +18,34 @@ public class Exercicio05 {
             num = sc.nextInt();
         }
 
+        String dia = "";
         switch (num){
             case 1:
-                System.out.println("Domingo");
+                dia = "Domingo";
                 break;
             case 2:
-                System.out.println("Segunda");
+                dia = "Segunda";
                 break;
             case 3:
-                System.out.println("Terça");
+                dia ="Terça";
                 break;
             case 4:
-                System.out.println("Quarta");
+                dia = "Quarta";
                 break;
             case 5:
-                System.out.println("Quinta");
+                dia = "Quinta";
                 break;
             case 6:
-                System.out.println("Sexta");
+                dia = "Sexta";
                 break;
             case 7:
-                System.out.println("Sábado");
+                dia = "Sábado";
                 break;
         }
+
+        System.out.println("---------------------------");
+        System.out.println("O dia da semana é: " + dia);
+
 
 
 

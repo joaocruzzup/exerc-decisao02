@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Exercicio02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("-----------------------------------------------");
+        System.out.println("Boas-vindas ao Indicador de produto mais barato");
+        System.out.println("-----------------------------------------------");
+
         System.out.println("Digite o preço do produto 1: ");
         double preco1 = sc.nextDouble();
 
@@ -15,11 +19,11 @@ public class Exercicio02 {
         double preco3 = sc.nextDouble();
 
         if (preco1 < preco2 && preco1 < preco3){
-            System.out.println("Você deve comprar o produto 1");
+            System.out.println("Você deve comprar o produto 1 por ser o mais barato");
         } else if (preco2 < preco1 && preco2 < preco3) {
-            System.out.println("Você deve comprar o produto 2");
+            System.out.println("Você deve comprar o produto 2 por ser o mais barato");
         } else if (preco3 < preco1 && preco3 < preco2) {
-            System.out.println("Você deve comprar o produto 3");
+            System.out.println("Você deve comprar o produto 3 por ser o mais barato");
         }
     }
 }
